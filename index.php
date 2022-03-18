@@ -1,6 +1,6 @@
-<!-- <?php
-ob_start ();
-session_start(); -->
+<?php
+// ob_start ();
+// session_start();
 // require "php/config.php";
 // require_once "php/functions.php";
 // $user = new login_registration_class();
@@ -10,9 +10,9 @@ session_start(); -->
 // }
 // ?>
 
-<!-- <?php
+<?php
 // 	$pageTitle = "Admin Login";
-?> -->
+?>
 <?php include "header.php"; ?>
 
 	<div class="loginform fix">
