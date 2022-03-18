@@ -1,15 +1,15 @@
 <?php
-session_start();
-	require "php/config.php";
-	require_once "php/functions.php";
-	$user = new login_registration_class();
-	$fid = $_SESSION['f_id'];
-	$funame = $_SESSION['f_uname'];
-	$fname = $_SESSION['f_name'];
-	if(!$user->get_faculty_session()){
-		header('Location: facultylogin.php');
-		exit();
-	}
+// session_start();
+// 	require "php/config.php";
+// 	require_once "php/functions.php";
+// 	$user = new login_registration_class();
+// 	$fid = $_SESSION['f_id'];
+// 	$funame = $_SESSION['f_uname'];
+// 	$fname = $_SESSION['f_name'];
+// 	if(!$user->get_faculty_session()){
+// 		header('Location: facultylogin.php');
+// 		exit();
+// 	}
 ?>	
 <?php 
 $pageTitle = "All student details";
