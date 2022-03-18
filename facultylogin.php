@@ -7,7 +7,7 @@
 // if($user->get_faculty_session()){
 // 	header('Location: class_att_fc.php');
 // 	exit();
-}
+// }
 ?>
 
 <?php 
