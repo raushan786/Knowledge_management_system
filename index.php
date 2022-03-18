@@ -1,19 +1,19 @@
-<!-- <?php
-ob_start ();
-session_start();
-require "php/config.php";
-require_once "php/functions.php";
-$user = new login_registration_class();
-if($user->get_admin_session()){
-	header('Location: admin.php');
-	exit();
+<?php
+// ob_start ();
+// session_start();
+// require "php/config.php";
+// require_once "php/functions.php";
+// $user = new login_registration_class();
+// if($user->get_admin_session()){
+// 	header('Location: admin.php');
+// 	exit();
 }
 ?>
 
 <?php
 	$pageTitle = "Admin Login";
 ?>
-<?php include "header.php"; ?> -->
+<?php include "header.php"; ?>
 
 	<div class="loginform fix">
 		<div class="msg "><h3><i class="fa fa-user" aria-hidden="true"></i>  Admin login</h3></div>
