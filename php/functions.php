@@ -1,8 +1,8 @@
 <?php
-class login_registration_class{
-	public function __construct(){
-		$db = new databaseConnection();
-	}
+// class login_registration_class{
+// 	public function __construct(){
+// 		$db = new databaseConnection();
+// 	}
 	
 	//All function for Student
 	
